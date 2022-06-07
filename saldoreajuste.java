@@ -12,6 +12,7 @@ public class saldoreajuste {
 
     System.out.println("Seu saldo anterior era de R$" + saldo + ". Com o reajuste, passou a ser R$" + reajuste + ".");
 
+    sc.close();
   }
 
 }

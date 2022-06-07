@@ -9,6 +9,8 @@ public class numantecessorsucessor {
     int antecessor = numero - 1;
     int sucessor = numero + 1;
 
+    sc.close();
+
     System.out.println("O número inserido foi o " + numero + "\nAntecessor: " + antecessor + "\nSucessor: " + sucessor);
   }
 }

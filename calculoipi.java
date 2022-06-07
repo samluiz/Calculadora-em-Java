@@ -21,6 +21,8 @@ public class calculoipi {
       peca2[i] = sc.nextDouble();
     }
 
+    sc.close();
+
     valorTotal = (peca1[1]*peca1[2] + peca2[1]*peca2[2]) * (ipi/100 + 1);
 
     System.out.println("O valor total a ser pago da peça de código " + peca1[0] + " com a peça de código " + peca2[0] + " é de R$" + valorTotal + ".");

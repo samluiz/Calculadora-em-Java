@@ -11,6 +11,8 @@ public class salariominimo {
     System.out.println("Informe seu salário atual: ");
     Double salarioUser = sc.nextDouble();
 
+    sc.close();
+
     while (salarioUser >= salarioMinAtual) {
       contador++;
       salarioUser = salarioUser - salarioMinAtual;

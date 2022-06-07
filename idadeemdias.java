@@ -16,6 +16,7 @@ public class idadeemdias {
 
     System.out.println("Você já viveu " + idade[3] + " dias na sua vida!");
 
+    reader.close();
 
   }
 }
