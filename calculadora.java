@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercise3 {
+public class calculadora {
   public static void main(String[] args) {
     try (Scanner reader = new Scanner(System.in)) {
       double numbers[] = new double[2];
